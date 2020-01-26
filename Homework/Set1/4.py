@@ -1,9 +1,9 @@
-fib1 = 0
-fib2 = 1
+f1 = 0
+f2 = 1
 
-print(str(fib1) + " "+ str(fib2),end =" ")
+print(str(f1) + " "+ str(f2),end =" ")
 for i in range(3,35):
-    fib3 = fib1 + fib2
-    print(str(fib3), end = " ")
-    fib1 = fib2
-    fib2 = fib3
+    f3 = f1 + f2
+    print(str(f3), end = " ")
+    f1 = f2
+    f2 = f3
