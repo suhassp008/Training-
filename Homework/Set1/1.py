@@ -1,5 +1,5 @@
-cp = int(input("input the cp:" ))
-sp = int(input("input the sp:"))
+cp = int(input("input the cost price :" ))
+sp = int(input("input the selling price:"))
 if cp<sp:
     print("Profit")
     profit = sp-cp
@@ -9,5 +9,5 @@ elif cp>sp:
     Loss = cp-sp
     print(Loss)
 else:
-    print("same")
+    print("Same")
 
